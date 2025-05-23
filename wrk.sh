@@ -3,7 +3,7 @@
 c=1
 t=1
 d="1s"
-s=""
+s="wrkpro.lua"
 
 while getopts ":c:t:d:s:" opt
     do
