@@ -1,0 +1,3 @@
+/api/order/list
+/api/product/list
+/api/user/list
