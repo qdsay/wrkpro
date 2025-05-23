@@ -1,6 +1,7 @@
 # wrkpro
 
 First, install wrk, and then create a log directory  
+Edit hosts.txt and paths.txt using your own configuration
 for example:  
 
 ```
