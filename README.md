@@ -1,7 +1,7 @@
 # wrkpro
 
-First, install wrk, and then create a log directory
-for example:
+First, install wrk, and then create a log directory  
+for example:  
 
 ```
 mkdir log //output path
