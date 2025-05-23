@@ -34,6 +34,6 @@ while getopts ":c:t:d:s:" opt
 done
 
 while read line; do
-  echo "wrk -c $c -t $t -d $d -s $s --latency http://$line"
-  wrk -c $c -t $t -d $d -s $s --latency http://$line > log/$line.log 2>&1 &
+    echo "wrk -c $c -t $t -d $d -s $s --latency http://$line"
+    wrk -c $c -t $t -d $d -s $s --latency http://$line > log/$line.log 2>&1 &
 done < hosts.txt
